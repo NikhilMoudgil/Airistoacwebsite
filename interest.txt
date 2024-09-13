@@ -1,0 +1,19 @@
+<div class="form-group  my-2">
+         <h6>I am Intersted in</h6>
+            <div class="form-check" name="interest">
+                <input class="form-check-input" type="checkbox" id="interest1" name="interest" value="AC Repair">
+                <label class="form-check-label" for="interest1">AC Repair</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="interest2" name="interest" value="AC Maintenance">
+                <label class="form-check-label" for="interest2">AC Maintenance</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="interest3" name="interest" value="AC Installation">
+                <label class="form-check-label" for="interest3">AC Installation</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="interest4" name="interest" value="Other Services">
+                <label class="form-check-label" for="interest4">Other Services</label>
+            </div>
+        </div>

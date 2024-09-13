@@ -1,0 +1,46 @@
+[debug] [2024-07-14T00:09:04.229Z] ----------------------------------------------------------------------
+[debug] [2024-07-14T00:09:04.233Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-07-14T00:09:04.233Z] CLI Version:   13.13.2
+[debug] [2024-07-14T00:09:04.234Z] Platform:      win32
+[debug] [2024-07-14T00:09:04.234Z] Node Version:  v20.15.1
+[debug] [2024-07-14T00:09:04.234Z] Time:          Sun Jul 14 2024 05:39:04 GMT+0530 (India Standard Time)
+[debug] [2024-07-14T00:09:04.234Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-07-14T00:09:04.243Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-07-14T00:09:04.243Z] > authorizing via signed-in user (airistoservices@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\xampp\htdocs\airistophp
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-07-14T00:10:32.170Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-07-14T00:10:33.628Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-07-14T00:10:33.628Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project airisto-ac-services-132e6 (Airisto Ac Services) 
+[info] 
+=== Hosting Setup
+[debug] [2024-07-14T00:10:35.452Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/airisto-ac-services-132e6 [none]
+[debug] [2024-07-14T00:10:36.109Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/airisto-ac-services-132e6 200
+[debug] [2024-07-14T00:10:36.109Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/airisto-ac-services-132e6 {"projectId":"airisto-ac-services-132e6","projectNumber":"402585168976","displayName":"Airisto Ac Services","name":"projects/airisto-ac-services-132e6","resources":{"hostingSite":"airisto-ac-services-132e6","realtimeDatabaseInstance":"airisto-ac-services-132e6-default-rtdb"},"state":"ACTIVE","etag":"1_fb98cdcd-3d51-4334-86d2-46f4efa452e8"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 

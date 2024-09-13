@@ -1,0 +1,33 @@
+.product-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Add margin between rows */
+}
+
+.product-card {
+    width: calc(33.33% - 10px); /* Set the width to one-third of the container width with margins */
+    margin-bottom: 20px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+}
+
+.product-details {
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+
+.product-details p {
+    margin: 5px 0;
+}
+
+.product-details form {
+    margin-top: 10px;
+}
